@@ -29,10 +29,9 @@ public class Employee implements Serializable {
 	
 	
 	
-	public Employee(Long id, String name, String email, String jobTitle, String phone, String imageUrl,
+	public Employee(String name, String email, String jobTitle, String phone, String imageUrl,
 			String employeeCode) {
 		super();
-		this.id = id;
 		this.name = name;
 		this.email = email;
 		this.jobTitle = jobTitle;
